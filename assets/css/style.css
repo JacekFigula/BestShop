@@ -16,6 +16,16 @@
     --color-white: #FFFFFF;
 }
 
-html, body {
-    font-size: 16px;
-}
+html, body { font-size: 16px; }
+
+.header {}
+.container {}
+.header .header__container{}
+
+.logo {}
+
+.menu {}
+.menu .menu__item{}
+
+.menu .menu__item:hover {}
+
