@@ -18,14 +18,55 @@
 
 html, body { font-size: 16px; }
 
-.header {}
-.container {}
-.header .header__container{}
+.header {
+    width: 100vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+.container {
+    max-width:84.5rem;
+    margin-inline: auto;
 
-.logo {}
+}
+.header .header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.menu {}
-.menu .menu__item{}
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: var(--color-primary);
+    font-size: 2rem;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: 2.3125rem;
+    margin-left: 1.1875rem;
 
-.menu .menu__item:hover {}
+}
+
+.menu {
+    display: flex;
+}
+.menu .menu__item{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6875rem;
+    line-height: 0.9375rem;
+    padding: 1.71875rem 2.96875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: var(--color-grey);
+    /*display: block;*/
+    box-sizing: border-box;
+    height: 4.375rem;
+}
+
+.menu .menu__item:hover {
+    color: var(--color-black);
+    border-bottom: .25rem;
+    border-color: var(--color-primary);
+    border-style: solid;
+}
 
