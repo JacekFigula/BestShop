@@ -22,9 +22,7 @@ html, body {
 }
 
 .header {
-    /*width: 100vw;*/
     width: 100%;
-    max-width: var(--design-max-width);
     margin-inline: auto;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
@@ -48,12 +46,13 @@ html, body {
     text-align: left;
     letter-spacing: 0;
     line-height: 2.3125rem;
-    margin-left: 1.1875rem;
+    /*margin-left: 1.1875rem;*/
 
 }
 
 .menu {
     display: flex;
+    flex-wrap: wrap;
 }
 .menu .menu__item{
     text-decoration: none;
@@ -99,9 +98,8 @@ html, body {
 }
 
 .opening {
-    /*width: 100vw;*/
-    max-width: var(--design-max-width);
-    /*overflow: hidden;*/
+    width: 100%;
+    /*max-width: var(--design-max-width);*/
     background: url("../images/Background.png") no-repeat bottom;
     height: 44.5rem;
     margin-top: 8.125rem;
@@ -116,7 +114,6 @@ html, body {
 }
 .opening .opening__box {
     text-align: center;
-
 }
 .opening .opening__hdl {
     font-family: 'Raleway', sans-serif;
